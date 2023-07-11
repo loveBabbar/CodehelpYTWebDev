@@ -1,6 +1,7 @@
 # MERN stack Web Development Course - Codehelp by loveBabbar
+![webdev_course](https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg)
+[Course Link ](https://bit.ly/3NVveYl)
 
-##  YouTube Playlist Link for the course : https://bit.ly/3NVveYl
 Welcome to our concise web development🧑🏼‍💻 course on the MERN stack! If you're looking to build modern and powerful web applications, you have come to the right place. In this comprehensive course, I'll guide you through the entire process of creating web applications using MongoDB,Express.js,React and Node.js🚀 
 
 
@@ -28,7 +29,8 @@ I'll start from basics gradually progress to more advanced concepts.
 
 ## Join us Today 🎉
 Don't miss this opportunity to unlock🔓 the power of MERN stack🧑🏼‍💻🌐 and become a skilled Developer.
-**YouTube Playlist Link for the course : https://bit.ly/3NVveYl**
+
+**YouTube Playlist** [Course Link here](https://bit.ly/3NVveYl)
 
 *Let's Built amazing web applications, together.  -Love Babbar*
 
