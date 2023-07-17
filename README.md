@@ -30,7 +30,10 @@ I'll start from basics gradually progress to more advanced concepts.
 ## Join us Today 🎉
 Don't miss this opportunity to unlock the power of MERN stack and become a skilled Developer.
 
-**YouTube Playlist** [Course Link here](https://bit.ly/3NVveYl)
+**YouTube Playlist** 
+> [Course Link here](https://bit.ly/3NVveYl)
 
-*Let's Built amazing web applications, together.  -Love Babbar*
+*Let's Built amazing web applications, together*
+
+*♥️ Babbar*
 
