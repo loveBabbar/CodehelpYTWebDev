@@ -6,7 +6,7 @@
 .container{
     height: 100%;
     width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
     background-color: #e2e5e8;
     background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
 
