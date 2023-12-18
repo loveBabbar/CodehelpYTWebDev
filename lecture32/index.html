@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3D Transforms</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            background-color: antiquewhite;
+            padding: 5rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        .item{
+            padding: 2rem;
+            height: 150px;
+            width: 150px;
+            background-color: rgb(105, 208, 14);
+            border: 2px solid black;
+        }
+        #rotateX:hover{
+            transform: rotateX(45deg);
+        }
+
+        #rotateY:hover{
+            transform: rotateY(-45deg);
+        }
+
+        #rotateZ:hover{
+            transform: rotateZ(45deg);
+        }
+
+        #translateX:hover{
+            transform: translateX(-100px);
+        }
+
+        #translateY:hover{
+            transform: translateY(-100px);
+        }
+
+        #translateZ:hover{
+            transform:perspective(300px) translateZ(-100px);
+        }
+
+        #scaleX:hover{
+            transform: scaleX(1.5);
+        }
+
+        #scaleY:hover{
+            transform: skewY(30deg)
+        }
+
+        #scaleZ:hover{
+            transform:perspective(300px) scaleZ(5) rotateY(30deg) ;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="item" id="rotateX">RotateX</div>
+        <div class="item" id="rotateY">RotateY</div>
+        <div class="item" id="rotateZ">RotateZ</div>
+        <div class="item" id="translateX">TranslateX</div>
+        <div class="item" id="translateY">TranslateY</div>
+        <div class="item" id="translateZ">TranslateZ</div>
+        <div class="item" id="scaleX">ScaleX</div>
+        <div class="item" id="scaleY">ScaleY</div>
+        <div class="item" id="scaleZ">ScaleZ</div>
+    </div>
+    
+</body>
+</html>

@@ -41,10 +41,12 @@ a{
 .main_container{
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    justify-content: center;
 }
 
-@media (min-width:935px) {
+/* @media (min-width:935px) {
     .main_container{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -59,7 +61,7 @@ a{
     .main_container{
         grid-template-columns: repeat(4, 1fr);
     }
-}
+} */
 
 .card_container{
     overflow: hidden;
