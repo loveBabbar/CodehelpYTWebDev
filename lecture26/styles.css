@@ -6,7 +6,7 @@
 .container{
     height: 100%;
     width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
     background-color: #e2e5e8;
     background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
 
@@ -14,6 +14,8 @@
 
 .navContainer{
     width: 100vw;
+    position: fixed;
+
     /* background-color: rgba(113, 113, 154, 0.776);
     */
     background-color: #000000;
@@ -24,7 +26,7 @@ background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 nav{
     width: 100%;
@@ -77,6 +79,7 @@ footer{
 .contentBox{
     width: 50%;
     margin: auto;
+    margin-top: 50px;
     /* border: 1px solid black; */
     background-color: white;
     display: flex;
@@ -93,11 +96,13 @@ footer{
 }
 
 .rightBox{
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
+    height: 400px;
     transition: all 0.3s linear 0s;
     box-shadow: 1px 1px 10px black;
     border-radius: 20px;
+    background-color: black;
 }
 
 .rightBox img{
